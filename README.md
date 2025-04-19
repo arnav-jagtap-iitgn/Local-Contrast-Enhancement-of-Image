@@ -51,7 +51,7 @@ The algorithm is designed and implemented using **Verilog HDL** on an FPGA platf
 - Output quality validated against MATLAB reference implementation
 
 <p align="center">
-  <img src="[https://github.com/arnav-jagtap-iitgn/Local-Contrast-Enhancement-of-Image/enhanced_image.png](https://github.com/arnav-jagtap-iitgn/Local-Contrast-Enhancement-of-Image/blob/main/enhanced_image.png)" width="60%">
+  <img src="https://github.com/arnav-jagtap-iitgn/Local-Contrast-Enhancement-of-Image/blob/main/enhanced_image.png" width="60%">
   <br><i>Before and after local contrast enhancement</i>
 </p>
 
