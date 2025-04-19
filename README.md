@@ -38,7 +38,7 @@ The algorithm is designed and implemented using **Verilog HDL** on an FPGA platf
 - **Controller Module**: Handles synchronization and sequencing of operations.
 
 ### 🧠 Features:
-- Fully pipelined design for real-time throughput.
+- Fully pipelined design for gray image throughput.
 - Efficient memory management using BRAM.
 - UART-based image output transmission.
 
@@ -51,7 +51,7 @@ The algorithm is designed and implemented using **Verilog HDL** on an FPGA platf
 - Output quality validated against MATLAB reference implementation
 
 <p align="center">
-  <img src="https://github.com/arnav-jagtap-iitgn/Local-Contrast-Enhancement-of-Image/assets/your-enhanced-image-demo.png" width="60%">
+  <img src="https://github.com/arnav-jagtap-iitgn/Local-Contrast-Enhancement-of-Image/enhanced_image.png" width="60%">
   <br><i>Before and after local contrast enhancement</i>
 </p>
 
@@ -59,7 +59,7 @@ The algorithm is designed and implemented using **Verilog HDL** on an FPGA platf
 
 ## 📁 Project Structure
 
-📂 Verilog/ │ ├── top_module.v │ ├── padding_module.v │ ├── window_module.v │ ├── histogram_module.v │ ├── cdf_module.v │ └── controller_module.v 📂 MATLAB/ │ └── reference_swahe.m 📄 Project presentation.pptx 📄 README.md
+📂 Verilog/ │ ├── top_module.v │ └── controller_module.v │ ├── padding_module.v │ ├── window_module.v │ ├── histogram_module.v │ ├── cdf_module.v  📄 Project presentation.pptx 📄 README.md
 
 ---
 
