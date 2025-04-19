@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_module_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="492356fs"></ZoomStartTime>
+      <ZoomEndTime time="1101529fs"></ZoomEndTime>
+      <Cursor1Time time="833658fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="134"></NameColumnWidth>
+      <ValueColumnWidth column_width="105"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="group65" type="group">
+      <obj_property name="label">cdf normalise</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/cdf_start" type="logic">
+         <obj_property name="ElementShortName">cdf_start</obj_property>
+         <obj_property name="ObjectShortName">cdf_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/index" type="array">
+         <obj_property name="ElementShortName">index[14:0]</obj_property>
+         <obj_property name="ObjectShortName">index[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/histo" type="array">
+         <obj_property name="ElementShortName">histo[2815:0]</obj_property>
+         <obj_property name="ObjectShortName">histo[2815:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/cdf_completed" type="logic">
+         <obj_property name="ElementShortName">cdf_completed</obj_property>
+         <obj_property name="ObjectShortName">cdf_completed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/ren" type="logic">
+         <obj_property name="ElementShortName">ren</obj_property>
+         <obj_property name="ObjectShortName">ren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/wen" type="logic">
+         <obj_property name="ElementShortName">wen</obj_property>
+         <obj_property name="ObjectShortName">wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/addr" type="array">
+         <obj_property name="ElementShortName">addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/intensity" type="array">
+         <obj_property name="ElementShortName">intensity[7:0]</obj_property>
+         <obj_property name="ObjectShortName">intensity[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/temp1" type="array">
+         <obj_property name="ElementShortName">temp1[14:0]</obj_property>
+         <obj_property name="ObjectShortName">temp1[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/cdf" type="array">
+         <obj_property name="ElementShortName">cdf[2815:0]</obj_property>
+         <obj_property name="ObjectShortName">cdf[2815:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/i" type="array">
+         <obj_property name="ElementShortName">i[8:0]</obj_property>
+         <obj_property name="ObjectShortName">i[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/cdf_inst/n" type="array">
+         <obj_property name="ElementShortName">n[31:0]</obj_property>
+         <obj_property name="ObjectShortName">n[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group134" type="group">
+      <obj_property name="label">uart</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_module/uut/uart/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/transmit" type="logic">
+         <obj_property name="ElementShortName">transmit</obj_property>
+         <obj_property name="ObjectShortName">transmit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/TxD" type="logic">
+         <obj_property name="ElementShortName">TxD</obj_property>
+         <obj_property name="ObjectShortName">TxD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/ea_tx" type="logic">
+         <obj_property name="ElementShortName">ea_tx</obj_property>
+         <obj_property name="ObjectShortName">ea_tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/addr_tx" type="array">
+         <obj_property name="ElementShortName">addr_tx[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_tx[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/din_tx" type="array">
+         <obj_property name="ElementShortName">din_tx[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din_tx[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/dout_tx" type="array">
+         <obj_property name="ElementShortName">dout_tx[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_tx[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/address" type="array">
+         <obj_property name="ElementShortName">address[16:0]</obj_property>
+         <obj_property name="ObjectShortName">address[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/donef" type="logic">
+         <obj_property name="ElementShortName">donef</obj_property>
+         <obj_property name="ObjectShortName">donef</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/inc_addr" type="logic">
+         <obj_property name="ElementShortName">inc_addr</obj_property>
+         <obj_property name="ObjectShortName">inc_addr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/bitcounter" type="array">
+         <obj_property name="ElementShortName">bitcounter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">bitcounter[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/counter" type="array">
+         <obj_property name="ElementShortName">counter[13:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/state" type="logic">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/nextstate" type="logic">
+         <obj_property name="ElementShortName">nextstate</obj_property>
+         <obj_property name="ObjectShortName">nextstate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/rightshiftreg" type="array">
+         <obj_property name="ElementShortName">rightshiftreg[9:0]</obj_property>
+         <obj_property name="ObjectShortName">rightshiftreg[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/shift" type="logic">
+         <obj_property name="ElementShortName">shift</obj_property>
+         <obj_property name="ObjectShortName">shift</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/uart/clear" type="logic">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group113" type="group">
+      <obj_property name="label">fsm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/pad_i_c" type="logic">
+         <obj_property name="ElementShortName">pad_i_c</obj_property>
+         <obj_property name="ObjectShortName">pad_i_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/wf" type="logic">
+         <obj_property name="ElementShortName">wf</obj_property>
+         <obj_property name="ObjectShortName">wf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/hc" type="logic">
+         <obj_property name="ElementShortName">hc</obj_property>
+         <obj_property name="ObjectShortName">hc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/cdf_c" type="logic">
+         <obj_property name="ElementShortName">cdf_c</obj_property>
+         <obj_property name="ObjectShortName">cdf_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/re" type="logic">
+         <obj_property name="ElementShortName">re</obj_property>
+         <obj_property name="ObjectShortName">re</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/load_c" type="logic">
+         <obj_property name="ElementShortName">load_c</obj_property>
+         <obj_property name="ObjectShortName">load_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/load_i" type="logic">
+         <obj_property name="ElementShortName">load_i</obj_property>
+         <obj_property name="ObjectShortName">load_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/pad_i" type="logic">
+         <obj_property name="ElementShortName">pad_i</obj_property>
+         <obj_property name="ObjectShortName">pad_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/h_s" type="logic">
+         <obj_property name="ElementShortName">h_s</obj_property>
+         <obj_property name="ObjectShortName">h_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/cdf_s" type="logic">
+         <obj_property name="ElementShortName">cdf_s</obj_property>
+         <obj_property name="ObjectShortName">cdf_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/show_i" type="logic">
+         <obj_property name="ElementShortName">show_i</obj_property>
+         <obj_property name="ObjectShortName">show_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/pixcel" type="array">
+         <obj_property name="ElementShortName">pixcel[14:0]</obj_property>
+         <obj_property name="ObjectShortName">pixcel[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/re_win" type="logic">
+         <obj_property name="ElementShortName">re_win</obj_property>
+         <obj_property name="ObjectShortName">re_win</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/s0" type="array">
+         <obj_property name="ElementShortName">s0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/s1" type="array">
+         <obj_property name="ElementShortName">s1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/s2" type="array">
+         <obj_property name="ElementShortName">s2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/s3" type="array">
+         <obj_property name="ElementShortName">s3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/s4" type="array">
+         <obj_property name="ElementShortName">s4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/fsm_inst/s5" type="array">
+         <obj_property name="ElementShortName">s5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s5[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group91" type="group">
+      <obj_property name="label">histogram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/hist_start" type="logic">
+         <obj_property name="ElementShortName">hist_start</obj_property>
+         <obj_property name="ObjectShortName">hist_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/hist_completed" type="logic">
+         <obj_property name="ElementShortName">hist_completed</obj_property>
+         <obj_property name="ObjectShortName">hist_completed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/Count" type="array">
+         <obj_property name="ElementShortName">Count[2815:0]</obj_property>
+         <obj_property name="ObjectShortName">Count[2815:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/ren" type="logic">
+         <obj_property name="ElementShortName">ren</obj_property>
+         <obj_property name="ObjectShortName">ren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/wen" type="logic">
+         <obj_property name="ElementShortName">wen</obj_property>
+         <obj_property name="ObjectShortName">wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/addr" type="array">
+         <obj_property name="ElementShortName">addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/dout1" type="array">
+         <obj_property name="ElementShortName">dout1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/pixel" type="array">
+         <obj_property name="ElementShortName">pixel[11:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/intensity" type="array">
+         <obj_property name="ElementShortName">intensity[7:0]</obj_property>
+         <obj_property name="ObjectShortName">intensity[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/hist_inst/i" type="array">
+         <obj_property name="ElementShortName">i[10:0]</obj_property>
+         <obj_property name="ObjectShortName">i[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group93" type="group">
+      <obj_property name="label">padding_img</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/padding_start" type="logic">
+         <obj_property name="ElementShortName">padding_start</obj_property>
+         <obj_property name="ObjectShortName">padding_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/padding_completed" type="logic">
+         <obj_property name="ElementShortName">padding_completed</obj_property>
+         <obj_property name="ObjectShortName">padding_completed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/ren" type="logic">
+         <obj_property name="ElementShortName">ren</obj_property>
+         <obj_property name="ObjectShortName">ren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/wen" type="logic">
+         <obj_property name="ElementShortName">wen</obj_property>
+         <obj_property name="ObjectShortName">wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/addr" type="array">
+         <obj_property name="ElementShortName">addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/row" type="array">
+         <obj_property name="ElementShortName">row[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/col" type="array">
+         <obj_property name="ElementShortName">col[8:0]</obj_property>
+         <obj_property name="ObjectShortName">col[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/newrow" type="array">
+         <obj_property name="ElementShortName">newrow[8:0]</obj_property>
+         <obj_property name="ObjectShortName">newrow[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/newcol" type="array">
+         <obj_property name="ElementShortName">newcol[8:0]</obj_property>
+         <obj_property name="ObjectShortName">newcol[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/img_width" type="array">
+         <obj_property name="ElementShortName">img_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">img_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/img_height" type="array">
+         <obj_property name="ElementShortName">img_height[31:0]</obj_property>
+         <obj_property name="ObjectShortName">img_height[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/pad_size" type="array">
+         <obj_property name="ElementShortName">pad_size[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pad_size[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/padded_width" type="array">
+         <obj_property name="ElementShortName">padded_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">padded_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/padded_height" type="array">
+         <obj_property name="ElementShortName">padded_height[31:0]</obj_property>
+         <obj_property name="ObjectShortName">padded_height[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/tot_pixels" type="array">
+         <obj_property name="ElementShortName">tot_pixels[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tot_pixels[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/START" type="array">
+         <obj_property name="ElementShortName">START[2:0]</obj_property>
+         <obj_property name="ObjectShortName">START[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/READ" type="array">
+         <obj_property name="ElementShortName">READ[2:0]</obj_property>
+         <obj_property name="ObjectShortName">READ[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/IDLE1" type="array">
+         <obj_property name="ElementShortName">IDLE1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/IDLE2" type="array">
+         <obj_property name="ElementShortName">IDLE2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/WRITE" type="array">
+         <obj_property name="ElementShortName">WRITE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">WRITE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/IDLE3" type="array">
+         <obj_property name="ElementShortName">IDLE3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/IDLE4" type="array">
+         <obj_property name="ElementShortName">IDLE4[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE4[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/padding_img/STOP" type="array">
+         <obj_property name="ElementShortName">STOP[2:0]</obj_property>
+         <obj_property name="ObjectShortName">STOP[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group78" type="group">
+      <obj_property name="label">window</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/make_window" type="array">
+         <obj_property name="ElementShortName">make_window[14:0]</obj_property>
+         <obj_property name="ObjectShortName">make_window[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/rst_window" type="logic">
+         <obj_property name="ElementShortName">rst_window</obj_property>
+         <obj_property name="ObjectShortName">rst_window</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/window_fetched" type="logic">
+         <obj_property name="ElementShortName">window_fetched</obj_property>
+         <obj_property name="ObjectShortName">window_fetched</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/ren" type="logic">
+         <obj_property name="ElementShortName">ren</obj_property>
+         <obj_property name="ObjectShortName">ren</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/wen" type="logic">
+         <obj_property name="ElementShortName">wen</obj_property>
+         <obj_property name="ObjectShortName">wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/addr" type="array">
+         <obj_property name="ElementShortName">addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/dout1" type="array">
+         <obj_property name="ElementShortName">dout1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/ren1" type="logic">
+         <obj_property name="ElementShortName">ren1</obj_property>
+         <obj_property name="ObjectShortName">ren1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/wen1" type="logic">
+         <obj_property name="ElementShortName">wen1</obj_property>
+         <obj_property name="ObjectShortName">wen1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/addr1" type="array">
+         <obj_property name="ElementShortName">addr1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addr1[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/din1" type="array">
+         <obj_property name="ElementShortName">din1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/row" type="array">
+         <obj_property name="ElementShortName">row[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/col" type="array">
+         <obj_property name="ElementShortName">col[8:0]</obj_property>
+         <obj_property name="ObjectShortName">col[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/i" type="array">
+         <obj_property name="ElementShortName">i[11:0]</obj_property>
+         <obj_property name="ObjectShortName">i[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/window_index" type="array">
+         <obj_property name="ElementShortName">window_index[14:0]</obj_property>
+         <obj_property name="ObjectShortName">window_index[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/window_col" type="array">
+         <obj_property name="ElementShortName">window_col[7:0]</obj_property>
+         <obj_property name="ObjectShortName">window_col[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/window_row" type="array">
+         <obj_property name="ElementShortName">window_row[7:0]</obj_property>
+         <obj_property name="ObjectShortName">window_row[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/padded_width" type="array">
+         <obj_property name="ElementShortName">padded_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">padded_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/padded_height" type="array">
+         <obj_property name="ElementShortName">padded_height[31:0]</obj_property>
+         <obj_property name="ObjectShortName">padded_height[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/window_size" type="array">
+         <obj_property name="ElementShortName">window_size[31:0]</obj_property>
+         <obj_property name="ObjectShortName">window_size[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/START" type="array">
+         <obj_property name="ElementShortName">START[2:0]</obj_property>
+         <obj_property name="ObjectShortName">START[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/READ" type="array">
+         <obj_property name="ElementShortName">READ[2:0]</obj_property>
+         <obj_property name="ObjectShortName">READ[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/IDLE1" type="array">
+         <obj_property name="ElementShortName">IDLE1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/IDLE2" type="array">
+         <obj_property name="ElementShortName">IDLE2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/WRITE" type="array">
+         <obj_property name="ElementShortName">WRITE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">WRITE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/IDLE3" type="array">
+         <obj_property name="ElementShortName">IDLE3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/IDLE4" type="array">
+         <obj_property name="ElementShortName">IDLE4[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE4[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/uut/window_inst/STOP" type="array">
+         <obj_property name="ElementShortName">STOP[2:0]</obj_property>
+         <obj_property name="ObjectShortName">STOP[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Apr 18 02:44:46 2025
+# Process ID: 25684
+# Current directory: C:/IITGN 2nd year/ES 204 Digital Systems/Image_Precessing_Final/Image_Precessing_Final.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/IITGN 2nd year/ES 204 Digital Systems/Image_Precessing_Final/Image_Precessing_Final.sim/sim_1/behav/xsim/xsim.dir/tb_top_module_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/IITGN 2nd year/ES 204 Digital Systems/Image_Precessing_Final/Image_Precessing_Final.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/IITGN 2nd year/ES 204 Digital Systems/Image_Precessing_Final/Image_Precessing_Final.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/IITGN -notrace
+couldn't read file "C:/IITGN": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 18 02:44:46 2025...
