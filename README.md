@@ -59,7 +59,28 @@ The algorithm is designed and implemented using **Verilog HDL** on an FPGA platf
 
 ## 📁 Project Structure
 
-📂 Verilog/ │ ├── top_module.v │ └── controller_module.v │ ├── padding_module.v │ ├── window_module.v │ ├── histogram_module.v │ ├── cdf_module.v  📄 Project presentation.pptx 📄 README.md
+Verilog Codes/
+├── top_module.v
+├── controller_module.v
+├── padding_module.v
+├── window_module.v
+├── histogram_module.v
+└── cdf_module.v
+
+Verilog Testbench/
+└── testbench.v
+
+Verilog constraints/
+└── constraints.xdc
+
+Python Codes/
+└── reference_swahe.py
+
+sample gray images/
+├── input_image.png
+└── enhanced_image.png
+
+Project presentation.pptx
 
 ---
 
